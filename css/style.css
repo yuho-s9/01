@@ -1,0 +1,276 @@
+/* PCスマホ共通 */
+
+body {
+  width: 1200px;
+  padding: 0px;
+  margin: 0 auto;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: normal;
+  color: #000;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-left: 20px;
+  line-height: 100px;
+}
+
+h1 {
+  font-size: 27px;
+  font-weight: bold;
+  color: #000;
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 20px;
+  
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+p {
+  font-size: 18px;
+  font-weight: normal;
+  color: #000;
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 5px;
+}
+
+section {
+  padding: 20px 0;
+}
+
+/* header */
+
+header {
+  padding: 20px 0;
+  background-color: #ececec;
+}
+
+nav {  
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+#title {  
+  display: flex;
+}
+
+.logo {
+  height:100px;
+}
+
+#text {
+  margin-left: 20px;  
+}
+
+#text > h1 {
+  line-height: 100px;
+  margin: 0;
+}
+
+
+/* main-image */
+
+#main-image {
+  height: 600px;
+  width: 100%;
+  vertical-align: bottom;
+
+}
+
+#main-text {
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+
+/* works */
+
+#works {
+  background-image: url(../images/papyrus.png);
+}
+
+.contents {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../images/papyrus.webp);
+}
+
+.item {
+  width: 340px;
+  margin: 20px;
+}
+
+/* company */
+
+#about-contents {
+  display: flex;
+}
+
+#company-table {
+  width: 60%;
+}
+
+.tableheader {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #CDD6DD;
+  width: 150px;
+}
+
+.tableheader-first {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #CDD6DD;
+  border-top: 1px solid #CDD6DD;
+  width: 150px;
+}
+
+.cell {
+  padding: 30px;
+  border-bottom: 1px solid #CDD6DD;
+}
+
+.cell-first {
+  padding: 30px;
+  border-bottom: 1px solid #CDD6DD;
+  border-top: 1px solid #CDD6DD;
+}
+
+iframe {
+  width: 35%;
+  height: 550px;
+  margin-left: 30px;
+}
+
+/* recruit */
+
+#recruit-contents {
+  display: flex;
+}
+
+#recruit-contents > img {
+  width: 35%;
+}
+
+#recruit-text {
+  margin-left: 30px;
+}
+
+#recruit-table {
+  width: 100%;
+}
+
+#recruit-text > p {
+  display: inline-block;
+  padding: 20px 0;
+}
+
+
+/* contact */
+
+#contact {
+  background-image: url(../images/papyrus.png);
+}
+
+#contact > p {
+  text-align: left;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url(../images/papyrus.webp);
+}
+
+#contact > form > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+
+.contact-heading {
+  width: 240px;
+  align-self: center;
+}
+
+.contact-label {
+  font-weight: bold;
+}
+
+.contact-span {
+  color: red;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.contact-textbox {
+  border: 1px #CDD6DD solid;
+  width: 600px;
+  height: 60px;
+}
+
+.contact-textarea {
+  border: 1px #CDD6DD solid;
+  width: 600px;
+  height: 200px;
+}
+
+#contact-btn {
+  display: flex;
+  justify-content: center;
+}
+
+#contact-btn > input {
+  margin: 10px;
+}
+
+.btn {  
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff;
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: #1e1e1e;
+  height: 60px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+/* footer */
+
+footer {
+  background-color: #ececec;
+  padding: 20px;
+}
+
+#footer-contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-contents > div > p {
+  padding-left: 20px;
+}
+
+#footer-logo {
+  height: 80px;
+  padding: 20px;
+}
+
+footer > p {
+  font-size: 18px;
+  padding-left: 20px;
+}
